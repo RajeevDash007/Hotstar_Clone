@@ -18,8 +18,8 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/detail/:id" element={<Details />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/detail" element={<Details />} />
       </Routes>
     </Router>
   </div>
