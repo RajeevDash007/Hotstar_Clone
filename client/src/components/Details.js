@@ -23,9 +23,15 @@ function Details() {
           <span>+</span>
         </AddButton>
         <GroupWatchButton>
-          <img src="/images/group-icon.png" />
+          <img src="/images/group-icon.png" alt=""/>
         </GroupWatchButton>
       </Controls>
+      <SubTitle>
+        2018   7m   Family, Fantasy, Kids, Animation
+      </SubTitle>
+      <Description>
+        A Chinese-Canadian woman suffering from empty nest syndrome gets a second shot at motherhood when one of her handmade dumplings comes alive.
+      </Description>
     </Container>
   )
 }
@@ -122,3 +128,17 @@ const GroupWatchButton = styled(AddButton)`
   background: rgb(0,0,0);
 `
 
+const SubTitle = styled.div`
+  color: rgb(249,249,249);
+  font-size:15px;
+  min-height: 20px;
+  margin-top: 26px;
+`
+
+const Description = styled.div`
+  line-height: 1.4;
+  font-size:20px;
+  margin-top:16px;
+  color:rgb(249,249,249);  
+
+`
