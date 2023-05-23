@@ -1,4 +1,9 @@
 # Hotstar_Clone
+I have tried to clone the disney+ hotstar web app, it is full respnosive.
+
+# TECH STACK
+React JS,Redux JS, NodeJS, Express JS, Cors
+
 
 In the project directory, you can run:
 
