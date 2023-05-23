@@ -5,7 +5,7 @@ I have tried to clone the disney+ hotstar web app, it is full respnosive.
 React JS,Redux JS, NodeJS, Express JS, Cors
 
 
-#In the project directory, you can run:
+# In the project directory, you can run:
 
 ### `npm start`
 
